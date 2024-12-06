@@ -1,4 +1,5 @@
 import Greet from "./Components/Greet"
+import Welcome from "./Components/Welcome"
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Greet/>
+      <Welcome/>
     </>
   )
 }
