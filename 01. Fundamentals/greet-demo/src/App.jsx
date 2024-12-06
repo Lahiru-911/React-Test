@@ -11,6 +11,7 @@ import Product1 from "./Components/Product1"
 import ProductInfo from "./Components/ProductInfo"
 import ProductList from "./Components/ProductList"
 import UserList from "./Components/UserList"
+import Weather from "./Components/Weather"
 import Welcome from "./Components/Welcome"
 
 
@@ -36,6 +37,8 @@ function App() {
 
       <Person1 name="Lahiru" age={25}/>
       <Product1 name="Laptop" price={100}/>
+
+      <Weather/>
     </>
   )
 }
