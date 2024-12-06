@@ -1,5 +1,6 @@
 import Footer from "./Components/Footer"
 import Greet from "./Components/Greet"
+import Greeting from "./Components/Greeting"
 import Header from "./Components/Header"
 import JSXRules from "./Components/JSXRules"
 import MainText from "./Components/MainText"
@@ -18,6 +19,8 @@ function App() {
       <Header/>
       <MainText/>
       <Footer/>
+
+      <Greeting/>
     </>
   )
 }
