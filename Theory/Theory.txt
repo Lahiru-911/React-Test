@@ -1,2 +1,3 @@
-in the react added css including {{}}
-ex:- <h1 style={{color:"teal", backgroundColor:"white", padding="2rem",}}> Hellow World </h1>
+in the react added css including {{}}In React, inline styles are defined as an object using double curly braces. The outer set of curly braces {} is used to embed JavaScript expressions within JSX, and the inner curly braces {} represent the style object. Each CSS property is written in camelCase notation, and the values are provided as strings or numbers where applicable.
+
+ex:- <h1 style={{color: "teal", backgroundColor: "white", padding: "2rem",}}> Hello World </h1>
