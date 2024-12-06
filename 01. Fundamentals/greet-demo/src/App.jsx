@@ -5,6 +5,7 @@ import Header from "./Components/Header"
 import JSXRules from "./Components/JSXRules"
 import MainText from "./Components/MainText"
 import ProductInfo from "./Components/ProductInfo"
+import UserList from "./Components/UserList"
 import Welcome from "./Components/Welcome"
 
 
@@ -23,6 +24,7 @@ function App() {
 
       <Greeting/>
       <ProductInfo/>
+      <UserList/>
     </>
   )
 }
