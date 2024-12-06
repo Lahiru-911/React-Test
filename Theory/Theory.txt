@@ -1,2 +1,2 @@
 in the react added css including {{}}
-ex:- <h1>Hellow World</h1>
+ex:- <h1 style={{color:"teal", backgroundColor:"white", padding="2rem",}}> Hellow World </h1>
