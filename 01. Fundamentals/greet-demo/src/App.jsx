@@ -5,6 +5,7 @@ import Header from "./Components/Header"
 import JSXRules from "./Components/JSXRules"
 import MainText from "./Components/MainText"
 import Person from "./Components/Person"
+import Product from "./Components/Product"
 import ProductInfo from "./Components/ProductInfo"
 import ProductList from "./Components/ProductList"
 import UserList from "./Components/UserList"
@@ -29,6 +30,7 @@ function App() {
       <UserList/>
       <ProductList/>
       <Person name="Lahiru" age={25}/>
+      <Product name="Laptop" price={100}/>
     </>
   )
 }
