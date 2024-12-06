@@ -11,6 +11,7 @@ import Product1 from "./Components/Product1"
 import ProductInfo from "./Components/ProductInfo"
 import ProductList from "./Components/ProductList"
 import UserList from "./Components/UserList"
+import UserStatus from "./Components/UserStatus"
 import Weather from "./Components/Weather"
 import Welcome from "./Components/Welcome"
 
@@ -39,6 +40,7 @@ function App() {
       <Product1 name="Laptop" price={100}/>
 
       <Weather/>
+      <UserStatus loggedIn={false} isAdmin={true} />
     </>
   )
 }
