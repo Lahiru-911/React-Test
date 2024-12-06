@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Morning = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Morning = (props) => {
+  return props.timeDay === "GoodMorning" ? (
+    <div>Good Morning</div>
+  ) : (
+    <div>Good afternoon!</div>
+  );
+};
 
-export default Morning
+export default Morning;
