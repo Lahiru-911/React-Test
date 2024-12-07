@@ -1,3 +1,4 @@
+import Counter from "./Components/Counter";
 import EventDemo from "./Components/EventDemo";
 import Footer from "./Components/Footer";
 import Greet from "./Components/Greet";
@@ -47,6 +48,10 @@ function App() {
       <IconComponent/>
       <ProfileCard/>
       <EventDemo/>
+      <Counter/> 
+
+
+
     </>
   );
 }
