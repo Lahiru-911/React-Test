@@ -30,3 +30,20 @@ function App() {
 export default App;
 
 03///////////////////////
+
+In React, you cannot directly use an image from the `src` folder by just mentioning its name in the `src` attribute. You must first **import the image** in your file and then use it.
+
+Example:jsx
+import myImage from './images/myImage.png';
+
+function App() {
+  return <img src={myImage} alt="My Image" />;
+}
+
+
+Key Points:
+1. Direct usage in `src` folder is not allowed because `src` is processed by Webpack or similar bundlers.
+2. Public Folder Alternative: Place the image in the `public` folder and use a relative path:
+
+   <img src="/myImage.png" alt="My Image" />
+   
