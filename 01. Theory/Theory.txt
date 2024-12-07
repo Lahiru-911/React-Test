@@ -47,3 +47,13 @@ Key Points:
 
    <img src="/myImage.png" alt="My Image" />
    
+04///////////////////////
+
+Step for create React app using vite
+01. npm create vite@latest my-react-app
+02. project name
+03. cd project name
+04. npm install
+05. npm run dev
+06. npm run build
+07. 
