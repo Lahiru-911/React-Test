@@ -56,4 +56,6 @@ Step for create React app using vite
 04. npm install
 05. npm run dev
 06. npm run build
-07. 
+07. npm run preview
+
+05///////////////////////
