@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Todo = () => {
-  const [todos, setTodos] = useState([]); // Fixed variable name
+  const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
 
   const generateId = () => Math.random().toString(36).substr(2, 9);
