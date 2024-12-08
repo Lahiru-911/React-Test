@@ -4,11 +4,10 @@ const Todo = () => {
   const [todos, setTodos] = useState([]); // Fixed variable name
   const [input, setInput] = useState("");
 
-  // Generate a unique ID for each todo item
   const generateId = () => Math.random().toString(36).substr(2, 9);
 
   const handleSubmit = () => {
-    if (input.trim() === "") return; // Prevent adding empty todos
+    if (input.trim() === "") return;
     setTodos((prevTodos) =>
       prevTodos.concat({
         text: input,
@@ -24,7 +23,6 @@ const Todo = () => {
   return (
     <div className="h-screen w-full flex justify-center items-center bg-[#f5f9eb]">
       <div className="w-[650px] bg-[#fcfff3] rounded-lg shadow-lg p-6">
-        {/* Input and Button */}
         <div className="flex mb-4">
           <input
             type="text"
